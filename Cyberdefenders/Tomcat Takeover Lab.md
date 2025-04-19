@@ -3,7 +3,7 @@ En esta ocasion resolveremos el laboratorio -> Tomcat Takeover Lab
 
 empezamos extrayendo el comprimido, con la contraseña proporcionada
 
-![zip](Write-ups/assets/images/2025-04-19_10-56.png)
+![zip](assets/images/2025-04-19_10-56.png)
 
 nos deja un archivo pcap, por lo cual lo analizamos con wireshark
 
