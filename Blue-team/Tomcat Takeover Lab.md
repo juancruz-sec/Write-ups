@@ -54,7 +54,7 @@ Q5: Después del esfuerzo por enumerar los directorios en nuestro servidor web, 
 En este caso filtraremos por codigos de respuesta 200, si analizamos, podremos ver que el atacante accede a la ruta '/Manager' la cual como dijimos anteriormente, sabemos que es la ruta del panel de administración.
 
 
-![imagen](../assets/images/2025-04-19_09-59.png)
+![imagen](../assets/images/2025-04-19_18-15.png)
 
 ----------
 
