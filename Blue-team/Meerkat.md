@@ -2,7 +2,7 @@ En esta ocasión resolveremos el laboratorio **Meerkat**.
 
 Luego de extraer el archivo comprimido, abrimos Wireshark:
 
-![image](../assets/images/imagen1.png)
+![image](../assets/images/image1.png)
 
 Pregunta 1:
 
