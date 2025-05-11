@@ -14,7 +14,7 @@ Para facilitar el análisis, exportamos todos los logs a Splunk:
 
 ![image](../assets/images/image2.png)
 
-Observamos que el servidor ejecuta la aplicación web **Bonitasoft**.
+Observamos que el servidor ejecuta la aplicación web **Bonita**.
 
 
 Pregunta 2: 
@@ -26,11 +26,11 @@ Filtrando tráfico HTTP en Wireshark, observamos conversaciones sospechosas por 
 
 ![image](../assets/images/image3.png)
 
-Vamos a Follow Stream 
+Usamos la opción 'Follow Stream'
 
 ![image](../assets/images/image4.png)
 
-Vemos claramente, una actividad maliciosa, vamos a filtrar por la ip, y user-agent
+Vemos claramente una actividad maliciosa, vamos a filtrar por la IP, y User-Agent
 
 ![image](../assets/images/imagen5.png)
 
@@ -78,11 +78,11 @@ Filtrando solicitudes POST a la ruta de login del servidor, y viendo las convers
 
 ![image](../assets/images/image10.png)
 
-vemos que el total de paquetes de la mayoria de solicitudes es de 18, y todos dan un codigo de estado 401, Unauthorized, por lo cual pondremos nuestra atención las primeras solicitudes
+vemos que el total de paquetes de la mayoría de solicitudes es de 18, y todos dan un codigo de estado 401, Unauthorized, por lo cual pondremos nuestra atención las primeras solicitudes
 
 ![image](../assets/images/image11.png)
 
-yendo a Follow Stream, vemos las credenciales y un codigo de estado de respuesta de 204, lo que confirma credenciales validas
+yendo a Follow Stream, vemos las credenciales junto con un código de estado HTTP 204, lo que confirma el acceso exitoso
 
 
 Pregunta 7: 
@@ -101,7 +101,7 @@ Pregunta 8:
 Proporcione el nombre de archivo de la clave pública utilizada por el atacante para obtener persistencia en nuestro host.
 
 
-Al hacerle un curl al recurso vemos el nombre del archivo "hffgra4unv"
+Se realiza una petición curl al recurso, vemos el nombre del archivo "hffgra4unv"
 
 ![image](../assets/images/image13.png)
 
