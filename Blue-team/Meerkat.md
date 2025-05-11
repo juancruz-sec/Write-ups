@@ -1,4 +1,4 @@
-En esta ocasión resolveremos el laboratorio **Meerkat**.
+En esta ocasión resolveremos el laboratorio -> **Meerkat**.
 
 Luego de extraer el archivo comprimido, abrimos Wireshark:
 
@@ -22,7 +22,7 @@ Pregunta 2:
 Creemos que el atacante puede haber utilizado un subconjunto de la categoría de ataque de fuerza bruta: ¿cómo se llama el ataque realizado?
 
 
-Consultando MITRE ATT&CK y filtrando tráfico HTTP en Wireshark, observamos conversaciones sospechosas por TCP:
+Filtrando tráfico HTTP en Wireshark, observamos conversaciones sospechosas por TCP:
 
 ![image](../assets/images/image3.png)
 
@@ -34,7 +34,7 @@ Vemos claramente, una actividad maliciosa, vamos a filtrar por la ip, y user-age
 
 ![image](../assets/images/imagen5.png)
 
-Tras analizar las solicitudes HTTP y las credenciales utilizadas, se puede concluir que el ataque corresponde a la técnica conocida como **Credential Stuffing**. Este tipo de ataque automatizado consiste en reutilizar combinaciones de nombres de usuario y contraseñas obtenidas de filtraciones previas, con el objetivo de acceder a otros servicios. En este caso, la evidencia sugiere que el atacante apunta a usuarios válidos, utilizando credenciales específicas por usuario, lo que descarta un ataque de fuerza bruta convencional en el que se prueban contraseñas al azar.
+Tras analizar las solicitudes HTTP y las credenciales utilizadas, consultando MITRE ATT&CK se puede concluir que el ataque corresponde a la técnica conocida como **Credential Stuffing**. Este tipo de ataque automatizado consiste en reutilizar combinaciones de nombres de usuario y contraseñas obtenidas de filtraciones previas, con el objetivo de acceder a otros servicios. En este caso, la evidencia sugiere que el atacante apunta a usuarios válidos, utilizando credenciales específicas por usuario, lo que descarta un ataque de fuerza bruta convencional en el que se prueban contraseñas al azar.
 
 
 Pregunta 3:
