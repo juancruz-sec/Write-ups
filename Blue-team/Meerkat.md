@@ -74,15 +74,14 @@ Pregunta 6:
 
 ¿Qué combinación de nombre de usuario y contraseña fue exitosa?
 
-Filtrando solicitudes POST a la ruta de login del servidor, y viendo las conversaciones vemos lo siguiente:
+Filtrando solicitudes POST a la ruta de login del servidor, y viendo las conversaciones, vemos que el total de paquetes de la mayoría de solicitudes es de 18, y todos dan un codigo de estado 401, Unauthorized, por lo cual pondremos nuestra atención las primeras solicitudes
 
 ![image](../assets/images/image10.png)
 
-vemos que el total de paquetes de la mayoría de solicitudes es de 18, y todos dan un codigo de estado 401, Unauthorized, por lo cual pondremos nuestra atención las primeras solicitudes
+Vamos a la opción Follow Stream, y observamos las credenciales junto con un código de estado HTTP 204, lo que confirma el acceso exitoso
 
 ![image](../assets/images/image11.png)
 
-yendo a Follow Stream, vemos las credenciales junto con un código de estado HTTP 204, lo que confirma el acceso exitoso
 
 
 Pregunta 7: 
